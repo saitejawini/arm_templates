@@ -1,0 +1,13 @@
+<div>
+    <label for="Name">Name</label>
+    <input type="text" name="name" [(ngModel)]="name">
+  </div>
+<div>
+  <label for="Email">Email</label>
+  <input type="text" name="email" [(ngModel)]="email">
+</div>
+<div>
+    <label for="Email">Password</label>
+  <input type="password" name='pwd' [(ngModel)]="pwd">
+</div>
+<button type="submit" (click)="signup()">Signup</button>
