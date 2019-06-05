@@ -5,7 +5,7 @@
 
 trigger:
   - master
-  - First_Angular/firstangular/*
+  - First_Angular/firstangular/
 
 pool:
   vmImage: 'ubuntu-latest'
