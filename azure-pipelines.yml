@@ -4,8 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 trigger:
-  - master
-  - First_Angular/firstangular/
+  -First_Angular/firstangular
 
 pool:
   vmImage: 'ubuntu-latest'
